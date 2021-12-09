@@ -1,2 +1,2 @@
 # the-dash
-The dashboard
+Landing page featuring a social media dashboard
