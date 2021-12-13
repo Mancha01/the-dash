@@ -1,0 +1,21 @@
+# Avoid accidental Sketch file upload 
+###############################################
+## Please do not remove line 5 - thanks! 🙂 ##
+###############################################
+*.sketch
+
+# Avoid accidental XD or Figma upload if you convert the design file
+#######################################################
+## Please do not remove lines 11 and 12 - thanks! 🙂 ##
+#######################################################
+*.xd
+*.fig
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+
+
+#We want to ignore the node_modules folder and anything in there because you install your npm packages from your package json file
+#so you don't want to clutter your github folder with the node_modules files because any one can install them from
+#the package json file
+node_modules/

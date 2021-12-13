@@ -1,0 +1,21 @@
+html {
+  //The styling immediately below helps with accessibility:
+  font-size: 100%;
+  /*The styling immediately below ensures that if you add padding to an element the total width will 
+    include the padding and not be an addition to the padding */
+  box-sizing: border-box;
+}
+
+//Below we want to inherit this box sizing property from all elements:
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+//For body we use a reset
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-inter);
+}
