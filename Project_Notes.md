@@ -2,6 +2,8 @@
 
 - Light & Dark mode toggle
 
+- on designing and building toggle switche- https://www.sarasoueidan.com/blog/toggle-switch-design/
+
 -figure out html markup.- https://scottaohara.github.io/a11y_styled_form_controls/
 
 Use fieldset, Legend, radio

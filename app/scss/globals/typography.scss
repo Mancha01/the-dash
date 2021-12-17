@@ -1,3 +1,4 @@
+@use "../utils/" as *;
 /* The first property below overrides the default margin of webpages because by default a margin is added to 
 the top and the buttom*/
 
@@ -5,8 +6,16 @@ h1,
 h2,
 h3 {
   margin-top: 0;
+  line-height: 1.1;
 }
 
+h1 {
+  font-size: rem(24);
+  margin-bottom: rem(3);
+  @include breakpoint(large) {
+    font-size: rem(28);
+  }
+}
 //The styling below is for the anchor links
 a,
 a:visited,
