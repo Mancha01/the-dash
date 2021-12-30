@@ -3,40 +3,30 @@
 
 .toggle {
   display: grid;
-  grid-template-columns: 1fr rem(60) 1fr;
-  gap: rem(12);
+  grid-template-columns: 1fr 3rem;
   border: none;
   margin: 0;
 
   label {
     font-size: rem(14);
-    align-self: center;
+    color: var(--toggle);
+    font-weight: 700;
+
     &[for="dark"] {
-      grid-column: 1/2;
-      justify-self: end;
-    }
-    &[for="system"] {
-      grid-row: 2/3;
-      grid-column: 1/4;
-      justify-self: center;
-      align-self: start;
-    }
-    &[for="light"] {
-      grid-column: 3/4;
+      line-height: rem(24);
+      margin-right: rem(13);
     }
   }
 
   &__wrapper {
     position: relative;
     height: rem(24);
-    grid-column: 2/3;
-    grid-row: 1/2;
   }
 
   input[type="radio"] {
     margin: 0 -2px 0 -2px;
     opacity: 0;
-    width: rem(18);
+    width: rem(24);
     height: rem(24);
 
     &:focus ~ .toggle__button {
@@ -52,11 +42,7 @@
     position: absolute;
     width: 100%;
     top: 0;
-    background: linear-gradient(
-      225deg,
-      var(--toggle-background-end) 0%,
-      var(--toggle-background-start) 98.02%
-    );
+    background: var(--toggle-background);
     pointer-events: none;
   }
 
@@ -68,7 +54,7 @@
     width: rem(18);
     height: rem(18);
     border-radius: 50%;
-    background-color: var(--dark-background);
+    background-color: var(--toggle-button);
     transition: all 150ms ease-in-out;
   }
 

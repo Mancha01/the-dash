@@ -29,3 +29,7 @@ Prefers color scheme Mozilla(switching between light and dark modes) - https://d
 Colors scheme default on local computer- the media query prefers color scheme in the article on Mozilla above helps modify the color scheme of the webpage depending on the users default on local computer
 
 Tweak the-dash project to also be able to modify webpage depending on user's default color scheme by default but also should be able to override using toggle.
+
+guide on dark mode- https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
+
+how to detect system default prefers color scheme using javascript - https://stackoverflow.com/questions/59621784/how-to-detect-prefers-color-scheme-change-in-javascript

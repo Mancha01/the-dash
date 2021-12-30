@@ -16,7 +16,7 @@
 
 .card {
   position: relative;
-  background: var(--dark-card);
+  background: var(--card-background);
   color: var(--dark-text1);
   text-align: center;
   padding: rem(25);
@@ -25,7 +25,7 @@
   cursor: pointer;
 
   &:hover {
-    background: var(--dark-card-hover);
+    background: var(--card-hover);
     transition: background 150ms ease-in-out;
   }
 
@@ -101,9 +101,11 @@
     margin-bottom: rem(4);
     &--big {
       font-size: rem(56);
+      color: var(--text-color);
     }
     &--small {
       font-size: rem(32);
+      color: var(--text-color);
     }
   }
   &__label {
