@@ -1,6 +1,6 @@
 #Functional Requirements/Notes
 
-- Light & Dark mode toggle
+- Light & Dark mode - https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/
 
 - on designing and building toggle switche- https://www.sarasoueidan.com/blog/toggle-switch-design/
 
